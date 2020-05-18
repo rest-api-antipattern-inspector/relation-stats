@@ -1,0 +1,8 @@
+[[source]]
+name = "pypi"
+
+[packages]
+sklearn = "*"
+
+[requires]
+python_version = "3.6"
