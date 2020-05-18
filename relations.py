@@ -20,4 +20,4 @@ def stats(type_a, type_b):  # type_a & type_b: antipattern types
 
 
 stats("linguistic", "design")
-stats("design", "linguistic")
+# stats("design", "linguistic")
