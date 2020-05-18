@@ -1,7 +1,6 @@
-import json
+import data
 
-with open("endpoints_data.json", "r") as read_file:
-    endpoints = json.load(read_file)
+endpoints = data.get_endpoints()
 
-    for ep in endpoints:
-        print(ep["endpoint"])
+for ep in endpoints:
+    print(ep["endpoint"])
