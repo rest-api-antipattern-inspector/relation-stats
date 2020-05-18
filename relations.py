@@ -1,6 +1,5 @@
 import data
 
-endpoints = data.get_endpoints()
+endpoints_data = data.get_endpoints_data()
 
-for ep in endpoints:
-    print(ep["endpoint"])
+print(endpoints_data)
