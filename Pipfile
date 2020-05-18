@@ -3,6 +3,7 @@ name = "pypi"
 url = "https://pypi.org/simple"
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 sklearn = "*"
